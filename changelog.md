@@ -1,5 +1,9 @@
 # Changelog
 
+## 2026-03-16 22:10 (Part 1 - Exercise 1.6)
+
+- Updated [part1/src/App.jsx](part1/src/App.jsx) for exercise 1.6. Replaced the course app with the first `unicafe` version using `useState` for `good`, `neutral`, and `bad`, plus buttons and basic statistics output.
+
 ## 2026-03-16 21:37 (Part 1 - Exercise 1.5)
 
 - Updated [part1/src/App.jsx](part1/src/App.jsx) for exercise 1.5. Replaced the separate `course` name and `parts` array with a single `course` object and wired components to use `course.name` and `course.parts`.
