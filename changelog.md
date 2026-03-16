@@ -1,5 +1,17 @@
 # Changelog
 
+## 2026-03-16 21:37 (Part 1 - Exercise 1.5)
+
+- Updated [part1/src/App.jsx](part1/src/App.jsx) for exercise 1.5. Replaced the separate `course` name and `parts` array with a single `course` object and wired components to use `course.name` and `course.parts`.
+
+## 2026-03-16 21:34 (Part 1 - Exercise 1.4)
+
+- Updated [part1/src/App.jsx](part1/src/App.jsx) for exercise 1.4. Moved the three part objects into a `parts` array and passed that array to `Content` and `Total`.
+
+## 2026-03-16 00:00 (Part 1 - Exercise 1.3)
+
+- Updated [part1/src/App.jsx](part1/src/App.jsx) for exercise 1.3. Replaced primitive part variables with part objects and adapted `Part`, `Content`, and `Total` to use object props.
+
 ## 2026-03-16 (Part 1 - Exercise 1.2)
 
 - Added `Part` component to `part1/src/App.jsx`. Refactored `Content` to render three `Part` sub-components instead of inline paragraphs.
