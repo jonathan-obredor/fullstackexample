@@ -1,1 +1,0 @@
-# exercises from full stack course

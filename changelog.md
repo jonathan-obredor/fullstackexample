@@ -1,5 +1,11 @@
 # Changelog
 
+## 2026-03-16 22:55 (Part 1 - Refactor: project reorganization)
+
+- Moved unicafe source files from `part1/src/` to a new `part1/unicafe/` Vite React app. Removed old `part1/src/` and all loose root-level files (`index.html`, `package.json`, `node_modules/`, etc.).
+- Created [part1/courseinfo](part1/courseinfo) as a new Vite React app placeholder for upcoming courseinfo exercises.
+- `part1/` now contains only three independent apps: `unicafe/`, `anecdotes/`, `courseinfo/`.
+
 ## 2026-03-16 22:39 (Part 1 - Exercise 1.12)
 
 - Created [part1/anecdotes](part1/anecdotes) as a separate Vite React app for the anecdotes exercises. Installed vite 8.0.0, react 19.2.4, and react-dom 19.2.4.
