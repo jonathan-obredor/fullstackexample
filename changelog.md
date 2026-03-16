@@ -1,5 +1,26 @@
 # Changelog
 
+## 2026-03-16 22:39 (Part 1 - Exercise 1.12)
+
+- Created [part1/anecdotes](part1/anecdotes) as a separate Vite React app for the anecdotes exercises. Installed vite 8.0.0, react 19.2.4, and react-dom 19.2.4.
+- Updated [part1/anecdotes/src/App.jsx](part1/anecdotes/src/App.jsx) and [part1/anecdotes/src/main.jsx](part1/anecdotes/src/main.jsx) for exercise 1.12. Added random anecdote selection with a `next anecdote` button and removed the starter CSS and asset files.
+
+## 2026-03-16 22:22 (Part 1 - Exercise 1.11)
+
+- Updated [part1/src/App.jsx](part1/src/App.jsx) for exercise 1.11. Changed `StatisticLine` and `Statistics` to render the `unicafe` statistics inside an HTML table.
+
+## 2026-03-16 22:19 (Part 1 - Exercise 1.10)
+
+- Updated [part1/src/App.jsx](part1/src/App.jsx) for exercise 1.10. Extracted `Button` for feedback actions and `StatisticLine` for rendering each statistics row in the `unicafe` app.
+
+## 2026-03-16 22:18 (Part 1 - Exercise 1.9)
+
+- Updated [part1/src/App.jsx](part1/src/App.jsx) for exercise 1.9. Added conditional rendering so `Statistics` shows `No feedback given` until at least one feedback item exists.
+
+## 2026-03-16 22:16 (Part 1 - Exercise 1.8)
+
+- Updated [part1/src/App.jsx](part1/src/App.jsx) for exercise 1.8. Extracted the feedback statistics into a separate `Statistics` component while keeping all `unicafe` state in `App`.
+
 ## 2026-03-16 22:13 (Part 1 - Exercise 1.7)
 
 - Updated [part1/src/App.jsx](part1/src/App.jsx) for exercise 1.7. Added `all`, `average`, and `positive` statistics to the `unicafe` app using values derived from `good`, `neutral`, and `bad`.
