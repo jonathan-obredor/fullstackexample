@@ -1,6 +1,12 @@
 # Changelog
 
-# Changelog
+## 2026-03-16 23:07 (Part 1 - Exercise 1.14)
+
+- Updated [part1/anecdotes/src/App.jsx](part1/anecdotes/src/App.jsx) for exercise 1.14. Added `topIndex` derived value using `votes.indexOf(Math.max(...votes))`. Renders an "Anecdote with most votes" section below.
+
+## 2026-03-16 23:07 (Part 1 - Exercise 1.13)
+
+- Updated [part1/anecdotes/src/App.jsx](part1/anecdotes/src/App.jsx) for exercise 1.13. Added `votes` state (zero-filled array). Added `handleVote` that copies and increments the current index immutably. Renders vote count and a `vote` button.
 
 ## 2026-03-16 22:55 (Part 1 - Refactor: project reorganization)
 
