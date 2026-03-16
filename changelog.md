@@ -1,5 +1,9 @@
 # Changelog
 
+## 2026-03-16 22:13 (Part 1 - Exercise 1.7)
+
+- Updated [part1/src/App.jsx](part1/src/App.jsx) for exercise 1.7. Added `all`, `average`, and `positive` statistics to the `unicafe` app using values derived from `good`, `neutral`, and `bad`.
+
 ## 2026-03-16 22:10 (Part 1 - Exercise 1.6)
 
 - Updated [part1/src/App.jsx](part1/src/App.jsx) for exercise 1.6. Replaced the course app with the first `unicafe` version using `useState` for `good`, `neutral`, and `bad`, plus buttons and basic statistics output.
