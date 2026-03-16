@@ -1,9 +1,11 @@
 # Changelog
 
+# Changelog
+
 ## 2026-03-16 22:55 (Part 1 - Refactor: project reorganization)
 
 - Moved unicafe source files from `part1/src/` to a new `part1/unicafe/` Vite React app. Removed old `part1/src/` and all loose root-level files (`index.html`, `package.json`, `node_modules/`, etc.).
-- Created [part1/courseinfo](part1/courseinfo) as a new Vite React app placeholder for upcoming courseinfo exercises.
+- Created [part1/courseinfo](part1/courseinfo) as a new Vite React app. Recovered [part1/courseinfo/src/App.jsx](part1/courseinfo/src/App.jsx) from commit `8705089` (exercises 1.3–1.5): `Header`, `Part`, `Content`, `Total` components with course data.
 - `part1/` now contains only three independent apps: `unicafe/`, `anecdotes/`, `courseinfo/`.
 
 ## 2026-03-16 22:39 (Part 1 - Exercise 1.12)
